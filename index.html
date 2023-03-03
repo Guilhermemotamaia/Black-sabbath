@@ -7,35 +7,106 @@
     <link rel="shortcut icon" href="img.png" type="image/x-icon">
     <title>Black Sabbath</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
         *{
             font-family: Arial, Helvetica, sans-serif;
+    
         }
         body{
            background-image: url(fundo.png);
            background-size: 100%;
         }
         main{
-            background-color: white;
-            width: 90%;
+            background-image: url(fundo.png);
+            min-width: 300px;
+            max-width: 1000px   ;
             padding: 10px;
             margin: auto;
+            margin-bottom: 30px;
           
+        }
+        header {
+            background-image: linear-gradient(to bottom, black, #332F2E);
+            min-height: 150px;
+            text-align: center;
+            padding-top: 30px;
+        }
+        header > h1 {
+            font-family: 'Tilt Prism', cursive;
+            color: white;
+        }
+        header > p {
+            font-family: 'Dancing Script', cursive;
+            font-family: 'Roboto', sans-serif;
+            font-size: 1.2em ;
+            max-width: 500px;
+            margin: auto;
+            text-shadow: 1px 1px 0px black;
+        }
+        footer {
+            background-image: linear-gradient(to bottom, black, #332F2E);
+            color: white;
+            text-align: center;          
+            padding: 20px;  
+            padding-bottom: 20px; 
+            margin-bottom: -10px;
+            
+        }
+        nav {
+            text-align: left;
+            padding: 10px;
+        }
+        nav > a {
+            padding: 10px;
+            font-weight: bolder
+        }
+        nav > a:hover{
+            background-color: rgba(150, 148, 148, 0.329);
+            color: black;
+            border-radius: 5px;
+            transition-duration: 0.8;
         }
         a{
             color: white;
             text-decoration: none;
         }
-        h1 {
+        h1{
+            color: white;
+            font-size: 50px;
+        }
+        h1#h1tipo {
+            background-color: black;
+            color: white;
+            
+            
             font-family: 'Dancing Script', cursive;
             font-family: 'Roboto', sans-serif;
+            padding: 10px;
         }
         h2 {
-            text-align: center;
+            background-color: brown;
+            color: white;
+            padding: 20px;
+            text-align: left;
             font-family: 'Dancing Script', cursive;
             font-family: 'Roboto', sans-serif;
         }
+        h3 {
+            color: white;
+            font-family: 'Dancing Script', cursive;
+            font-family: 'Roboto', sans-serif;
+        }
+        #centralizarpalavra {
+            text-align: center;
+        }
+        #fundobranco {
+            background-color: white;
+            color: black;
+        }
+        p{
+            color: white;
 
-        
+        }
         .centralizarimg{
             display: block;
             position: relative;
@@ -48,11 +119,17 @@
             max-width: 650px;
             width: 100%;
         }
+        #corletrabranca {
+            color: white;
+            font-weight: bolder;
+            font-size: 184%;
+            margin: 29px;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Black Sabbath</h1>
+        <h1> 🤘🔥Black Sabbath🔥🤘</h1>
         <p>Conheça a Banda Britânica Black Sabbath </p>
         <nav>
             <a href="">Home</a>
@@ -64,71 +141,71 @@
 
     <main>
         <article>
-            <h1>Black Sabbath</h1>
-            <p><strong>Black Sabbath</strong> foi uma banda de heavy metal britânica formada no ano de 1968 em Birmingham pelo guitarrista e principal compositor <a id="cordaletrapreta" href="#"><strong>Tony Iommi</strong></a>, o baixista e principal letrista <a id="cordaletrapreta" href="#"><strong>Geezer Butler</strong></a>, o vocalista <a id="cordaletrapreta" href="#"><strong>Ozzy Osbourne</strong></a> e o baterista <a id="cordaletrapreta" href="#"><strong>Bill Ward</strong></a>. Desde a saída de Ozzy Osbourne, a banda passou por diversas mudanças na formação, com o guitarrista Iommi sendo o único presente em todas elas. Originalmente era uma banda de blues rock, que logo adotou o nome Black Sabbath e começou a incorporar histórias de terror em suas letras, além de usar guitarras com baixa afinação. Apesar desses dois temas serem comuns, eles também compunham canções que tratavam de instabilidade social, corrupção política, os perigos do abuso de drogas e profecias apocalípticas resultantes de guerras.
-            <p>A formação original teve seu fim em 1979 com a demissão de Osbourne, devido a seu vício em álcool e uso de outras drogas. Ele foi substituído por Ronnie James Dio, antigo vocalista do Rainbow. Após gravarem dois álbuns com Dio, o Black Sabbath enfrentou inúmeras mudanças de integrantes durante as décadas de 80 e 90, que incluíram os vocalistas <strong>Ian Gillan</strong>, <strong>Glenn Hughes</strong>, <strong>Ray Gillen</strong> e <strong>Tony Martin</strong>, bem como vários bateristas e baixistas. Em 1992, Iommi e Butler juntaram-se a Dio e o baterista Vinny Appice para a gravação do disco Dehumanizer. A formação original reuniu-se em 1997, quando gravaram o disco ao vivo Reunion. O último álbum de estúdio do Black Sabbath, intitulado 13, foi lançado em junho 2013 e contou com Iommi, Butler e Osbourne. Entre 2016 e 2017 fizeram a "The End Tour", turnê que marcou oficialmente o fim da carreira do grupo.</p>
-            <h1>História</h1>
+            <h1 id="h1tipo">Black Sabbath</h1>
+            <p id="fundobranco"><strong>Black Sabbath</strong> foi uma banda de heavy metal britânica formada no ano de 1968 em Birmingham pelo guitarrista e principal compositor <a id="cordaletrapreta" href="#"><strong>Tony Iommi</strong></a>, o baixista e principal letrista <a id="cordaletrapreta" href="#"><strong>Geezer Butler</strong></a>, o vocalista <a id="cordaletrapreta" href="#"><strong>Ozzy Osbourne</strong></a> e o baterista <a id="cordaletrapreta" href="#"><strong>Bill Ward</strong></a>. Desde a saída de Ozzy Osbourne, a banda passou por diversas mudanças na formação, com o guitarrista Iommi sendo o único presente em todas elas. Originalmente era uma banda de blues rock, que logo adotou o nome Black Sabbath e começou a incorporar histórias de terror em suas letras, além de usar guitarras com baixa afinação. Apesar desses dois temas serem comuns, eles também compunham canções que tratavam de instabilidade social, corrupção política, os perigos do abuso de drogas e profecias apocalípticas resultantes de guerras.
+            <p id="fundobranco">A formação original teve seu fim em 1979 com a demissão de Osbourne, devido a seu vício em álcool e uso de outras drogas. Ele foi substituído por Ronnie James Dio, antigo vocalista do Rainbow. Após gravarem dois álbuns com Dio, o Black Sabbath enfrentou inúmeras mudanças de integrantes durante as décadas de 80 e 90, que incluíram os vocalistas <strong>Ian Gillan</strong>, <strong>Glenn Hughes</strong>, <strong>Ray Gillen</strong> e <strong>Tony Martin</strong>, bem como vários bateristas e baixistas. Em 1992, Iommi e Butler juntaram-se a Dio e o baterista Vinny Appice para a gravação do disco Dehumanizer. A formação original reuniu-se em 1997, quando gravaram o disco ao vivo Reunion. O último álbum de estúdio do Black Sabbath, intitulado 13, foi lançado em junho 2013 e contou com Iommi, Butler e Osbourne. Entre 2016 e 2017 fizeram a "The End Tour", turnê que marcou oficialmente o fim da carreira do grupo.</p>
+            <h1 id="h1tipo">História</h1>
             <h2><strong>Origem à estreia (1996-1970)</strong></h2>
             <div class="centralizarimg"><picture>
                 <source media="(max-width:700px )" srcset="blackimgpq.png"><img src="blackimg.png" alt=""></picture></div>
-            <p>O embrião do Black Sabbath surgiu no ano de 1968 em Aston, uma localidade de Birmingham, Inglaterra. A história começou quando o guitarrista Anthony "Tony" Iommi e o baterista William "Bill" Ward (ambos do grupo Mithology)[5] leram em uma loja, o anúncio de um cantor que estava à procura de músicos para formar uma banda. O cantor era John "Ozzy" Osbourne que estudou na mesma escola que Iommi. Iommi e Ward foram para casa de Ozzy e decidiram formar um grupo musical. Ozzy levou ao grupo outros dois músicos que tinham tocado com ele na banda Rare Breed: os guitarristas Terence "Geezer" Butler e Jimmy Phillips.
-            <p>Mais tarde, Butler assumiu o papel de baixista, e foi também contratado o saxofonista Alan "Aker" Clarke. A banda escolheu o nome inicialmente de Polka Tulk Blues Band e encurtado depois para Polka Tulk, e começou a construir um repertório, principalmente blues. Mais tarde, Clarke e Phillips saem do grupo e o restante dos membros decidiram alterar o nome da banda para Earth. A formação faz exibições em vários locais, tocando covers de Jimi Hendrix, Blue Cheer, Cream e The Beatles, e fizeram o primeiro demo em 1968. Conseguiram algum êxito no espaço de "pubs" britânicos, o que permitiu que o grupo fizesse o nome no exterior, graças ao agente Jim Simpson.</p> 
-            <p>Após um curto período, o nome da banda foi mudado porque havia outro grupo denominado Earth.[9] A escolha do nome, mais tarde, veio de uma ideia de Butler, um grande fã dos romances de "magia negra" e "terror" de autores como Dennis Wheatley. Butler tinha visto o filme de terror italiano do diretor Mario Bava, I Tre Volti Della Paura (As Três Máscaras do Terror) de 1963, mas exibido com o nome de Black Sabbath na Inglaterra e Estados Unidos, e escreveu uma canção que incorpora o título do filme. Isto se tornou o novo nome do grupo.</p> 
-            <p>O novo nome é acompanhado por uma transição para um novo som blues, primeiramente com elementos do folk e, em seguida, com cada vez mais fortes e obscuros tons até uma nova fórmula para a qual o grupo tornou famosa e seriam,para muitos críticos, os principais pioneiros do heavy metal. O primeiro registro que a banda assinou foi com a Fontana Records e, mais tarde, com a Vertigo. No dia 13 de fevereiro de 1970, foi publicado o álbum de estreia da banda, intitulado simplesmente de Black Sabbath.
+            <p id="fundobranco">O embrião do Black Sabbath surgiu no ano de 1968 em Aston, uma localidade de Birmingham, Inglaterra. A história começou quando o guitarrista Anthony "Tony" Iommi e o baterista William "Bill" Ward (ambos do grupo Mithology)[5] leram em uma loja, o anúncio de um cantor que estava à procura de músicos para formar uma banda. O cantor era John "Ozzy" Osbourne que estudou na mesma escola que Iommi. Iommi e Ward foram para casa de Ozzy e decidiram formar um grupo musical. Ozzy levou ao grupo outros dois músicos que tinham tocado com ele na banda Rare Breed: os guitarristas Terence "Geezer" Butler e Jimmy Phillips.
+            <p id="fundobranco" >Mais tarde, Butler assumiu o papel de baixista, e foi também contratado o saxofonista Alan "Aker" Clarke. A banda escolheu o nome inicialmente de Polka Tulk Blues Band e encurtado depois para Polka Tulk, e começou a construir um repertório, principalmente blues. Mais tarde, Clarke e Phillips saem do grupo e o restante dos membros decidiram alterar o nome da banda para Earth. A formação faz exibições em vários locais, tocando covers de Jimi Hendrix, Blue Cheer, Cream e The Beatles, e fizeram o primeiro demo em 1968. Conseguiram algum êxito no espaço de "pubs" britânicos, o que permitiu que o grupo fizesse o nome no exterior, graças ao agente Jim Simpson.</p> 
+            <p id="fundobranco">Após um curto período, o nome da banda foi mudado porque havia outro grupo denominado Earth.[9] A escolha do nome, mais tarde, veio de uma ideia de Butler, um grande fã dos romances de "magia negra" e "terror" de autores como Dennis Wheatley. Butler tinha visto o filme de terror italiano do diretor Mario Bava, I Tre Volti Della Paura (As Três Máscaras do Terror) de 1963, mas exibido com o nome de Black Sabbath na Inglaterra e Estados Unidos, e escreveu uma canção que incorpora o título do filme. Isto se tornou o novo nome do grupo.</p> 
+            <p id="fundobranco">O novo nome é acompanhado por uma transição para um novo som blues, primeiramente com elementos do folk e, em seguida, com cada vez mais fortes e obscuros tons até uma nova fórmula para a qual o grupo tornou famosa e seriam,para muitos críticos, os principais pioneiros do heavy metal. O primeiro registro que a banda assinou foi com a Fontana Records e, mais tarde, com a Vertigo. No dia 13 de fevereiro de 1970, foi publicado o álbum de estreia da banda, intitulado simplesmente de Black Sabbath.
             
-            <h1>Integrantes da banda</h1>
+            <h1 id="h1tipo">Integrantes da banda</h1>
 
-            <h2>Geezer Butler</h2>
+            <h2 id="centralizarpalavra">Geezer Butler</h2>
             <div class="centralizarimg"><picture><source media="(max-width:600px )" srcset="GeezerButler-pq.png"><img src="Geezer Butler.png" alt=""></picture></div>
             <h3>Biografia</h3>
-            <p>No ano de 1967, Geezer formou sua primeira banda, Rare Breed, onde era o guitarrista. Nos vocais, estava seu amigo de escola, Ozzy Osbourne. Separados por um tempo, Ozzy e Geezer se juntam novamente, e criam a banda Polka Tulk, junto com o guitarrista Tony Iommi e o baterista Bill Ward.</p>
-            <p>Após um tempo, eles mudam o nome da banda para Earth, mas em pouco tempo acharam uma banda inglesa com o mesmo nome, e adotaram o nome Black Sabbath, em 1969.[2] O nome "Black Sabbath" foi tirado de um filme de Boris Karloff, com o mesmo nome. Com o Sabbath formado, Iommi resolve que queria tocar com apenas um guitarrista, então Geezer resolve tocar baixo.[3] Com isso, Ozzy era o ponto focal da banda. Butler escreveu a maioria do instrumental da banda, fascinado com temas de Artes Negras, explorava temas como morte e destruição.</p>
-            <p>Durante a década de 70, a popularidade do Black Sabbath estava muito alta. Com a saída de Ozzy em 1979, no início dos anos 80, o grupo decide chamar o ex-vocalista da banda britânica Rainbow, o americano Ronnie James Dio, para depois ser a vez do vocalista do Deep Purple, Ian Gillan, em 1983</p>
-            <p>Geezer Butler, após um longo tempo com a banda resolve sair no meio de 1984, formando a Geezer Butler Band, mas não gravaram nenhum álbum. Em 1988, entrou na banda de Ozzy Osbourne para fazer parte da turnê No Rest For The Wicked. Butler entrou novamente no Black Sabbath em 1991, para a gravação do álbum Dehumanizer, que marcava a reunião com Ronnie James Dio nos vocais e Vinny Appice na bateria, porém novamente sai do grupo após a turnê do álbum Cross Purposes (1994).</p>
-            <p>
+            <p id="fundobranco">No ano de 1967, Geezer formou sua primeira banda, Rare Breed, onde era o guitarrista. Nos vocais, estava seu amigo de escola, Ozzy Osbourne. Separados por um tempo, Ozzy e Geezer se juntam novamente, e criam a banda Polka Tulk, junto com o guitarrista Tony Iommi e o baterista Bill Ward.</p>
+            <p id="fundobranco">Após um tempo, eles mudam o nome da banda para Earth, mas em pouco tempo acharam uma banda inglesa com o mesmo nome, e adotaram o nome Black Sabbath, em 1969.[2] O nome "Black Sabbath" foi tirado de um filme de Boris Karloff, com o mesmo nome. Com o Sabbath formado, Iommi resolve que queria tocar com apenas um guitarrista, então Geezer resolve tocar baixo.[3] Com isso, Ozzy era o ponto focal da banda. Butler escreveu a maioria do instrumental da banda, fascinado com temas de Artes Negras, explorava temas como morte e destruição.</p>
+            <p id="fundobranco">Durante a década de 70, a popularidade do Black Sabbath estava muito alta. Com a saída de Ozzy em 1979, no início dos anos 80, o grupo decide chamar o ex-vocalista da banda britânica Rainbow, o americano Ronnie James Dio, para depois ser a vez do vocalista do Deep Purple, Ian Gillan, em 1983</p>
+            <p id="fundobranco">Geezer Butler, após um longo tempo com a banda resolve sair no meio de 1984, formando a Geezer Butler Band, mas não gravaram nenhum álbum. Em 1988, entrou na banda de Ozzy Osbourne para fazer parte da turnê No Rest For The Wicked. Butler entrou novamente no Black Sabbath em 1991, para a gravação do álbum Dehumanizer, que marcava a reunião com Ronnie James Dio nos vocais e Vinny Appice na bateria, porém novamente sai do grupo após a turnê do álbum Cross Purposes (1994).</p>
+            <p id="fundobranco">
                 Em 1995, Geezer volta para a banda de Ozzy Osbourne, para participar do álbum Ozzmosis. Após ter gravado o álbum Ozzmosis, ele formou a banda G/Z/R, estreando com o álbum Plastic Planet, em 1995.[5] Em seguida fez seu próximo álbum solo, intitulado Black Science, de 1997.
                 Geezer Butler voltou para o Black Sabbath novamente em 1997 na edição do Ozzfest. Em 1998, o Black Sabbath volta a ativa com sua formação original e lançam um disco ao vivo, chamado Reunion. Após muitos anos de reuniões com o Sabbath, em 2005 Geezer lançou seu terceiro álbum solo, chamado Ohmwork.
             </p>
 
-            <h2>Tony Iommi</h2>
+            <h2 id="centralizarpalavra">Tony Iommi</h2>
             <div class="centralizarimg"><picture> <source media="(max-width: 700px )" srcset="tony.png"><img src="Tony Iommi.png" alt=""></picture></div>
             <h3>Biografia</h3>
-            <p>Tony Iommi é conhecido principalmente por seus riffs vigorosos e pesados e por basear a maioria dos seus solos em Pentatônica menor. Começou a se interessar por música na adolescência, quando tomou algumas aulas de piano, mas logo perdeu o interesse pelo instrumento e decidiu aprender guitarra. Segundo ele, o grupo que mais o inspirou foi a banda de Hank Marvin The Shadows.</p>
-            <p>Por causa de um acidente de trabalho a trajetória musical de Iommi ameaçou a terminar logo na juventude. O fato ocorreu na fábrica onde trabalhara quando ele foi chamado para operar uma prensa mecânica no lugar de um colega que havia faltado. Num momento de distração acabou colocando a mão direita na máquina que puxou de volta num reflexo de retração, decepando a falange distal dos dedos do meio e anelar. Sendo canhoto, a mão acidentada era a que ele usava para articular as notas no braço da guitarra e devido a gravidade do acidente, fora desencorajado a voltar a tocar o instrumento, pelos vários médicos que tinha consultado.</p>
-            <p>A motivação para continuar tocando foi reencontrada ao receber de presente do dono da empresa onde sofreu o acidente um disco do guitarrista belga de Jazz Django Reinhardt, que tocava apenas usando os dedos indicador e médio. Empolgado com o fato, Tony Iommi começou a usar encaixes improvisados de plástico derretido nas pontas dos dedos para poder tocar, que foram depois substituídos por próteses.</p>
-            <p>Desde a formação do Black Sabbath em 1968 até hoje Tony Iommi é ativo como músico, e entre outros projetos, foi o único membro que nunca deixou a banda. Além dos trabalhos no Black Sabbath, ele possui também 3 trabalhos solo em parceria com Glenn Hughes e músicos convidados. Em 1968, teve uma breve passagem pela banda Jethro Tull, substituindo o recém-saído guitarrista Mick Abrahams na lendária apresentação do Rolling Stones Rock and Roll Circus. Desde início do Black Sabbath até os dias atuais, Tony utiliza a guitarra Gibson SG.</p>
+            <p id="fundobranco">Tony Iommi é conhecido principalmente por seus riffs vigorosos e pesados e por basear a maioria dos seus solos em Pentatônica menor. Começou a se interessar por música na adolescência, quando tomou algumas aulas de piano, mas logo perdeu o interesse pelo instrumento e decidiu aprender guitarra. Segundo ele, o grupo que mais o inspirou foi a banda de Hank Marvin The Shadows.</p>
+            <p id="fundobranco">Por causa de um acidente de trabalho a trajetória musical de Iommi ameaçou a terminar logo na juventude. O fato ocorreu na fábrica onde trabalhara quando ele foi chamado para operar uma prensa mecânica no lugar de um colega que havia faltado. Num momento de distração acabou colocando a mão direita na máquina que puxou de volta num reflexo de retração, decepando a falange distal dos dedos do meio e anelar. Sendo canhoto, a mão acidentada era a que ele usava para articular as notas no braço da guitarra e devido a gravidade do acidente, fora desencorajado a voltar a tocar o instrumento, pelos vários médicos que tinha consultado.</p>
+            <p id="fundobranco">A motivação para continuar tocando foi reencontrada ao receber de presente do dono da empresa onde sofreu o acidente um disco do guitarrista belga de Jazz Django Reinhardt, que tocava apenas usando os dedos indicador e médio. Empolgado com o fato, Tony Iommi começou a usar encaixes improvisados de plástico derretido nas pontas dos dedos para poder tocar, que foram depois substituídos por próteses.</p>
+            <p id="fundobranco">Desde a formação do Black Sabbath em 1968 até hoje Tony Iommi é ativo como músico, e entre outros projetos, foi o único membro que nunca deixou a banda. Além dos trabalhos no Black Sabbath, ele possui também 3 trabalhos solo em parceria com Glenn Hughes e músicos convidados. Em 1968, teve uma breve passagem pela banda Jethro Tull, substituindo o recém-saído guitarrista Mick Abrahams na lendária apresentação do Rolling Stones Rock and Roll Circus. Desde início do Black Sabbath até os dias atuais, Tony utiliza a guitarra Gibson SG.</p>
 
-            <h2>Bill Ward</h2>
+            <h2 id="centralizarpalavra">Bill Ward</h2>
             <div class="centralizarimg"><picture><source media="(max-width: 700px )" srcset="bill.png"><img src="Bill Ward.png" alt=""></picture></div>
             <h3>Biografia</h3>
-            <p>Bill Ward e Tonny Iommi tocavam em uma banda chamada Mythology, posteriormente uniram-se a eles o vocalista e o baixista da banda Rare Breed, Ozzy Osbourne e Geezer Butler, formava-se então o Black Sabbath. De 1969 a 1980 Ward participou de todos os álbuns do Black Sabbath.</p>
-            <p>Ele deixou a banda em agosto de 1980, por motivos pessoais, durante a turnê do álbum Heaven and Hell. Em 1983 Ward retorna a banda para a gravação de Born Again mas, após a gravação do álbum, devido à problemas de saúde, teve de afastar-se novamente. No verão de 1984 Ward retorna ao Black Sabbath, porém, neste período a banda não gravou mais nenhum álbum. Apenas participou, em 1985, da primeira versão do Live Aid, onde o Black Sabbath foi convidado para tocar com sua formação original.</p>
-            <p>Após o Live Aid, pouco se ouviu falar de Bill Ward, mas em 1990 ele gravou seu primeiro álbum solo, chamado "Ward One: Along the Way", que contou entre outras com a participação de seu ex-companheiro de Black Sabbath, Ozzy Osbourne, cantando em duas músicas.</p>
-            <p>Em 1992, Ozzy Osbourne anunciou sua turnê "No More Tears" e subiu ao palco com o Black Sabbath original no dia 15 de agosto, em Costa Mesa, EUA, onde a banda tocou quatro músicas. Em 1997, Ward lança mais um álbum solo, "When the Bough Breaks" e depois junta-se ao Black Sabbath para dois shows realizados em Birmingham que resultaram na gravação do álbum Reunion.</p>
-            <p>Em 1997, Ward lança mais um álbum solo, "When the Bough Breaks" e depois junta-se ao Black Sabbath para dois shows realizados em Birmingham que resultaram na gravação do álbum Reunion.</p>
-
-            <h2>Ozzy Osbourne</h2>
+            <p id="fundobranco">Bill Ward e Tonny Iommi tocavam em uma banda chamada Mythology, posteriormente uniram-se a eles o vocalista e o baixista da banda Rare Breed, Ozzy Osbourne e Geezer Butler, formava-se então o Black Sabbath. De 1969 a 1980 Ward participou de todos os álbuns do Black Sabbath.</p>
+            <p id="fundobranco">Ele deixou a banda em agosto de 1980, por motivos pessoais, durante a turnê do álbum Heaven and Hell. Em 1983 Ward retorna a banda para a gravação de Born Again mas, após a gravação do álbum, devido à problemas de saúde, teve de afastar-se novamente. No verão de 1984 Ward retorna ao Black Sabbath, porém, neste período a banda não gravou mais nenhum álbum. Apenas participou, em 1985, da primeira versão do Live Aid, onde o Black Sabbath foi convidado para tocar com sua formação original.</p>
+            <p id="fundobranco">Após o Live Aid, pouco se ouviu falar de Bill Ward, mas em 1990 ele gravou seu primeiro álbum solo, chamado "Ward One: Along the Way", que contou entre outras com a participação de seu ex-companheiro de Black Sabbath, Ozzy Osbourne, cantando em duas músicas.</p>
+            <p id="fundobranco">Em 1992, Ozzy Osbourne anunciou sua turnê "No More Tears" e subiu ao palco com o Black Sabbath original no dia 15 de agosto, em Costa Mesa, EUA, onde a banda tocou quatro músicas. Em 1997, Ward lança mais um álbum solo, "When the Bough Breaks" e depois junta-se ao Black Sabbath para dois shows realizados em Birmingham que resultaram na gravação do álbum Reunion.</p>
+            <p id="fundobranco">Em 1997, Ward lança mais um álbum solo, "When the Bough Breaks" e depois junta-se ao Black Sabbath para dois shows realizados em Birmingham que resultaram na gravação do álbum Reunion.</p>
+            
+            <h2 id="centralizarpalavra">Ozzy Osbourne</h2>
             <div class="centralizarimg"><picture><source media="(max-width: 700px )" srcset="ozzyp.png"><img src="ozzy.png" alt=""></picture></div>
             <h3>Biografia</h3>
-            <p>Ozzy formou sua primeira banda, a The Polka Tulk Blues Band, aos vinte anos de idade. Esta, que logo após se chamaria apenas "Polka Tulk" e, mais tarde, "Earth". No repertório, blues e rock com influências das bandas Cream, Blue Cheer e Vanilla Fudge, recebe a alcunha de "Pai do Heavy Metal", sendo assim idolatrado.</p>
-            <p>E em 1969, após descobrir a existência de uma banda homônima, Tony Iommi (guitarra), Bill Ward (bateria), Ozzy Osbourne (vocais) e Geezer Butler (baixo) decidem adotar outro nome. A ideia surgiu a partir do título de uma história do escritor Dennis Wheatley (que também inspirou a composição de Butler), nascendo então o Black Sabbath.</p>
-            <p>O nome e a temática do Black Sabbath surgiu quando todos os integrantes andavam pela "cidade natal" da banda. Quando passaram em frente a um cinema no qual estava passando um filme de terror, Ozzy e Tony pensaram: "As pessoas pagam para ver isso? Para sentir medo? Pode ser que dê certo", e então puseram o nome do filme na banda e desde então compuseram músicas sobre morte e coisas do gênero.</p>
-            <p>Após nove anos junto ao Black Sabbath, o oitavo álbum da banda, “Never Say Die!” (1978), veio para marcar a saída de Ozzy. Decidido a seguir carreira solo, ele forma o Blizzard of Ozz juntamente com o guitarrista Randy Rhoads, o baixista Bob Daisley e o baterista Lee Kerslake, sendo que o primeiro álbum, de mesmo nome, foi lançado na Inglaterra em fita demo, no ano de 1980; e nos Estados Unidos e no resto do mundo, no ano seguinte, pelo selo Jet Records, da CBS.</p>
-            <p>O vocal personalíssimo de Ozzy somado ao talento inovador de Randy Rhoads renderam a sétima posição na parada inglesa e a vigésima primeira na norte-americana para os hits “Crazy Train” e “Mr. Crowley”. Impulsionados pelo sucesso nas vendas de seu debute, entre fevereiro e março de 1981, Ozzy e a banda voltaram ao estúdio para a gravação de seu segundo álbum, mas como a turnê do trabalho anterior estava pendente, o já intitulado “Diary of a Madman” acabou feito às pressas. O ensaio do solo de Rhoads na música “Little Dolls”, por exemplo, virou versão oficial. Além do que, nenhum dos integrantes da banda chegou a participar da mixagem final do álbum.</p>
-            <p>Para a turnê norte-americana — que acabou acontecendo somente um mês e um dia após a gravação do “Blizzard of Ozz” —, Tommy Aldridge (bateria) e Rudy Sarzo (baixo) substituíram Daisley e Lee Kerslake. Devido a grande vendagem do álbum — que alcançou 500 mil cópias em menos de cem dias —, Ozzy e Sharon Osbourne decidiram estender a turnê, porém, muitos shows tiveram que ser cancelados, já que pouquíssimos ingressos foram vendidos e o dinheiro arrecadado não foi suficiente nem para pagar a banda.</p>
-            <p>Com o lançamento do segundo álbum, deu-se início a turnê pela Europa, só que três apresentações depois, Ozzy teve um colapso nervoso e todos retornaram aos Estados Unidos para que ele pudesse descansar. Recuperado e com uma superprodução de 25 técnicos da Broadway e Las Vegas, recursos de última geração para o palco e seis mil cópias do primeiro álbum sendo vendidas a cada semana, Ozzy voltou à ativa.[1]</p>
-            <p>Vale destacar que foi nessa época um dos acontecimentos que mais marcou a carreira do artista. Tudo aconteceu quando um fã, durante o show, atirou um morcego ao palco e Ozzy, acreditando se tratar de um artefato de plástico, mordeu a cabeça do animal e acabou tendo que tomar várias vacinas antirrábicas. O medicamento causou-lhe choques anafiláticos, entre outros problemas de saúde. Chegou-se até a ser divulgada a sua morte, que foi desmentida pelo próprio vocalista. Em resposta, Ozzy Osbourne, de forma irônica, disse saber que pessoas podem morrer de raiva após serem mordidas por morcegos, mas que nunca ouviu falar que alguém pode morrer de raiva por ter mordido um morcego. Além disso, a grande repercussão por parte da imprensa sensacionalista levou entidades de proteção aos animais a protestarem contra os shows, inclusive, alguns tiveram que ser cancelados. Mesmo com tantos incidentes, a turnê continuou</p>
+            <p id="fundobranco">Ozzy formou sua primeira banda, a The Polka Tulk Blues Band, aos vinte anos de idade. Esta, que logo após se chamaria apenas "Polka Tulk" e, mais tarde, "Earth". No repertório, blues e rock com influências das bandas Cream, Blue Cheer e Vanilla Fudge, recebe a alcunha de "Pai do Heavy Metal", sendo assim idolatrado.</p>
+            <p id="fundobranco">E em 1969, após descobrir a existência de uma banda homônima, Tony Iommi (guitarra), Bill Ward (bateria), Ozzy Osbourne (vocais) e Geezer Butler (baixo) decidem adotar outro nome. A ideia surgiu a partir do título de uma história do escritor Dennis Wheatley (que também inspirou a composição de Butler), nascendo então o Black Sabbath.</p>
+            <p id="fundobranco">O nome e a temática do Black Sabbath surgiu quando todos os integrantes andavam pela "cidade natal" da banda. Quando passaram em frente a um cinema no qual estava passando um filme de terror, Ozzy e Tony pensaram: "As pessoas pagam para ver isso? Para sentir medo? Pode ser que dê certo", e então puseram o nome do filme na banda e desde então compuseram músicas sobre morte e coisas do gênero.</p>
+            <p id="fundobranco">Após nove anos junto ao Black Sabbath, o oitavo álbum da banda, “Never Say Die!” (1978), veio para marcar a saída de Ozzy. Decidido a seguir carreira solo, ele forma o Blizzard of Ozz juntamente com o guitarrista Randy Rhoads, o baixista Bob Daisley e o baterista Lee Kerslake, sendo que o primeiro álbum, de mesmo nome, foi lançado na Inglaterra em fita demo, no ano de 1980; e nos Estados Unidos e no resto do mundo, no ano seguinte, pelo selo Jet Records, da CBS.</p>
+            <p id="fundobranco">O vocal personalíssimo de Ozzy somado ao talento inovador de Randy Rhoads renderam a sétima posição na parada inglesa e a vigésima primeira na norte-americana para os hits “Crazy Train” e “Mr. Crowley”. Impulsionados pelo sucesso nas vendas de seu debute, entre fevereiro e março de 1981, Ozzy e a banda voltaram ao estúdio para a gravação de seu segundo álbum, mas como a turnê do trabalho anterior estava pendente, o já intitulado “Diary of a Madman” acabou feito às pressas. O ensaio do solo de Rhoads na música “Little Dolls”, por exemplo, virou versão oficial. Além do que, nenhum dos integrantes da banda chegou a participar da mixagem final do álbum.</p>
+            <p id="fundobranco">Para a turnê norte-americana — que acabou acontecendo somente um mês e um dia após a gravação do “Blizzard of Ozz” —, Tommy Aldridge (bateria) e Rudy Sarzo (baixo) substituíram Daisley e Lee Kerslake. Devido a grande vendagem do álbum — que alcançou 500 mil cópias em menos de cem dias —, Ozzy e Sharon Osbourne decidiram estender a turnê, porém, muitos shows tiveram que ser cancelados, já que pouquíssimos ingressos foram vendidos e o dinheiro arrecadado não foi suficiente nem para pagar a banda.</p>
+            <p id="fundobranco">Com o lançamento do segundo álbum, deu-se início a turnê pela Europa, só que três apresentações depois, Ozzy teve um colapso nervoso e todos retornaram aos Estados Unidos para que ele pudesse descansar. Recuperado e com uma superprodução de 25 técnicos da Broadway e Las Vegas, recursos de última geração para o palco e seis mil cópias do primeiro álbum sendo vendidas a cada semana, Ozzy voltou à ativa.[1]</p>
+            <p id="fundobranco">Vale destacar que foi nessa época um dos acontecimentos que mais marcou a carreira do artista. Tudo aconteceu quando um fã, durante o show, atirou um morcego ao palco e Ozzy, acreditando se tratar de um artefato de plástico, mordeu a cabeça do animal e acabou tendo que tomar várias vacinas antirrábicas. O medicamento causou-lhe choques anafiláticos, entre outros problemas de saúde. Chegou-se até a ser divulgada a sua morte, que foi desmentida pelo próprio vocalista. Em resposta, Ozzy Osbourne, de forma irônica, disse saber que pessoas podem morrer de raiva após serem mordidas por morcegos, mas que nunca ouviu falar que alguém pode morrer de raiva por ter mordido um morcego. Além disso, a grande repercussão por parte da imprensa sensacionalista levou entidades de proteção aos animais a protestarem contra os shows, inclusive, alguns tiveram que ser cancelados. Mesmo com tantos incidentes, a turnê continuou</p>
 
-            <h1>Melhores Músicas</h1>
+            <h1 id="h1tipo">Melhores Músicas</h1>
             <ol>
-                <li>Nib</li>
+                <li id="corletrabranca">Nib</li>
                 <div class="centralizarimg"><iframe width="650" height="315" src="https://www.youtube.com/embed/vwLQw_95hX0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
                     <br>
-                <li>Snowblind</li>
+                <li id="corletrabranca">Snowblind</li>
                 <div class="centralizarimg"><iframe width="650" height="315" src="https://www.youtube.com/embed/z2bYZobEQ4g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
-                <li>Iron Man</li>
+                <li id="corletrabranca">Iron Man</li>
                 <div class="centralizarimg"><iframe width="650" height="315" src="https://www.youtube.com/embed/pOfBdvuky1s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
-                <li>Planet Caravan</li>
+                <li id="corletrabranca">Planet Caravan</li>
                 <div class="centralizarimg"><iframe width="650" height="315" src="https://www.youtube.com/embed/NhyGGLic1QM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
             </ol>
                
